@@ -25,3 +25,17 @@ window.sr = ScrollReveal();
         origin: 'right',
         distance: '-100px'
     }); 
+
+    window.sr = ScrollReveal();
+    sr.reveal('.grid',{
+        duration: 3000,
+        origin: 'left',
+        distance: '-100px'
+    }); 
+
+    window.sr = ScrollReveal();
+    sr.reveal('.contactos',{
+        duration: 3000,
+        origin: 'top',
+        distance: '-100px'
+    }); 

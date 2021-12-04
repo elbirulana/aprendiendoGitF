@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="madiasQuerys.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/madiasQuerys.css">
     <link href='https://unpkg.com/boxicons@2.1.0/css/boxicons.min.css' rel='stylesheet'>
-    <!-- <script src="scrollreveal.js"></script> -->
+    <!-- <script src="javaScript/scrollreveal.js"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap"
@@ -26,9 +26,11 @@
                     </div>
                     <div class="header_nav">
                         <ul>
-                            <li><a href="#">Mis Proyectos</a></li>
-                            <li><a href="#">Sobre Mi</a></li>
-                            <li><a href="#">Sobre Mi</a></li>
+                            <li><a href="#Mis_proyectos">Mis Proyectos</a></li>
+                            <li><a href="#Sobre_Mi">Sobre Mi</a></li>
+                            <li><a href="#Mis_Skills">Mis Skills</a></li>
+                            <li><a href="#Comentarios">Comentarios</a></li>
+                            <li><a href="#Contactos">Contactos</a></li>
                         </ul>
                     </div>
                 </div>
@@ -51,7 +53,7 @@
     </header>
 
     <main class="main">
-        <section class="section">
+        <section class="section" id="Sobre_Mi">
             <h2>¿Quien soy?</h2>
             <div class="section_container">
                 <div class="section_textos">
@@ -70,7 +72,7 @@
                 </div>
             </div>
         </section>
-        <section class="skill">
+        <section class="skill" id="Mis_Skills">
             <h2>Mis Skills</h2>
             <div class="skill_container">
                 <div class="card">
@@ -122,7 +124,7 @@
                 </div>
             </div>
         </section>
-        <section class="grid">
+        <section class="grid" id="Comentarios">
             <h2>Comentarios</h2>
             <div class="grid_container">
                 <div class="grid_cuadros grid1">marron</div>
@@ -133,9 +135,49 @@
                 <div class="grid_cuadros grid6">marron</div>
             </div>
         </section>
+        <section class="proyectos" id="Mis_proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="proyectos_container">
+                <div class="card_proyectos">
+                    <img src="img/pexels-tranmautritam-251225.jpg" alt="">
+                </div>
+                <div class="card_proyectos"></div>
+                <div class="card_proyectos"></div>
+                <div class="card_proyectos"></div>
+            </div>
+        </section>
+        <section class="contactos" id="Contactos">
+            <h2>Contactame</h2>
+            <div class="redes_contactos">
+                <div class="redes">
+                    <div class="redes_iconos">
+                        <i class='bx bxl-gmail'></i>
+                    </div>
+                    <div class="redes_texto">
+                        <p>Enviame un mensaje</p>
+                    </div>
+                </div>
+                <div class="redes">
+                    <div class="redes_iconos">
+                        <i class='bx bxl-github'></i>
+                    </div>
+                    <div class="redes_texto">
+                        <p>Sigueme</p>
+                    </div>
+                </div>
+                <div class="redes">
+                    <div class="redes_iconos">
+                        <i class='bx bxl-linkedin'></i>
+                    </div>
+                    <div class="redes_texto">
+                        <p>Contactame</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <script src="main.js"></script>
-    <script src="index.js"></script>
+    <script src="javaScript/main.js"></script>
+    <script src="javaScript/index.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.0/dist/boxicons.js"></script>
 
 </body>
